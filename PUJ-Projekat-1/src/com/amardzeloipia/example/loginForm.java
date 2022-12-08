@@ -29,6 +29,9 @@ public class loginForm extends JFrame {
                 if(username.equals("admin") && password.equals("123"))
                 {
                     successfullyLoginForm newForm = new successfullyLoginForm();
+                    newForm.setMinimumSize(new Dimension(500,350));
+                    newForm.setMaximumSize(new Dimension(500,350));
+                    newForm.setLocationRelativeTo(null);
                     newForm.setVisible(true);
                     dispose();
 
@@ -38,6 +41,9 @@ public class loginForm extends JFrame {
                 else
                 {
                     invalidForm invalidLogin = new invalidForm();
+                    invalidLogin.setMinimumSize(new Dimension(500,350));
+                    invalidLogin.setMaximumSize(new Dimension(500,350));
+                    invalidLogin.setLocationRelativeTo(null);
                     invalidLogin.setVisible(true);
                     dispose();
                 }

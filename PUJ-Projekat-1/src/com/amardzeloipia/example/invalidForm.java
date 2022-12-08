@@ -1,6 +1,7 @@
 package com.amardzeloipia.example;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -25,6 +26,9 @@ public class invalidForm extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 loginForm openAgain = new loginForm();
+                openAgain.setMinimumSize(new Dimension(250,350));
+                openAgain.setMaximumSize(new Dimension(250,350));
+                openAgain.setLocationRelativeTo(null);
                 openAgain.setVisible(true);
                 dispose();
             }

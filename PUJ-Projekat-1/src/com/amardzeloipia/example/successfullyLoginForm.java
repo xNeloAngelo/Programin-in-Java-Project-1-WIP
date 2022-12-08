@@ -9,6 +9,8 @@ public class successfullyLoginForm extends JFrame{
     private JPanel successfulLoginPanel;
     private JButton btnQuit;
     private JButton btnContinue;
+    private JPanel panelLbl;
+    private JPanel btnPanel;
 
     public successfullyLoginForm() {
 
@@ -24,6 +26,8 @@ public class successfullyLoginForm extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
                 moviesForms openMovies = new moviesForms();
+                openMovies.setMinimumSize(new Dimension(500,350));
+                openMovies.setLocationRelativeTo(null);
                 openMovies.setVisible(true);
                 dispose();
             }

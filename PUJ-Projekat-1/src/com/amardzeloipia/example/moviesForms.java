@@ -33,6 +33,8 @@ public class moviesForms extends JFrame {
                 super.mouseClicked(e);
 
                 openMovieJoker openForm=new openMovieJoker();
+                openForm.setMinimumSize(new Dimension(500,200));
+                openForm.setLocationRelativeTo(null);
                 openForm.setVisible(true);
                 dispose();
             }
@@ -45,6 +47,8 @@ public class moviesForms extends JFrame {
 
                 super.mouseClicked(e);
                 movieBatman openFormBatman = new movieBatman();
+                openFormBatman.setMinimumSize(new Dimension(500,200));
+                openFormBatman.setLocationRelativeTo(null);
                 openFormBatman.setVisible(true);
                 dispose();
             }
@@ -55,6 +59,8 @@ public class moviesForms extends JFrame {
 
                 super.mouseClicked(e);
                 movieBlade openFormBlade = new movieBlade();
+                openFormBlade.setMinimumSize(new Dimension(500,200));
+                openFormBlade.setLocationRelativeTo(null);
                 openFormBlade.setVisible(true);
                 dispose();
             }
@@ -65,6 +71,8 @@ public class moviesForms extends JFrame {
 
                 super.mouseClicked(e);
                 movieTG openFormTG = new movieTG();
+                openFormTG.setMinimumSize(new Dimension(500,200));
+                openFormTG.setLocationRelativeTo(null);
                 openFormTG.setVisible(true);
                 dispose();
             }
@@ -75,6 +83,8 @@ public class moviesForms extends JFrame {
 
                 super.mouseClicked(e);
                 movieTenet openFormTennet = new movieTenet();
+                openFormTennet.setMinimumSize(new Dimension(500,200));
+                openFormTennet.setLocationRelativeTo(null);
                 openFormTennet.setVisible(true);
                 dispose();
             }
@@ -84,6 +94,8 @@ public class moviesForms extends JFrame {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 movieInter openInterForm = new movieInter();
+                openInterForm.setMinimumSize(new Dimension(500,200));
+                openInterForm.setLocationRelativeTo(null);
                 openInterForm.setVisible(true);
                 dispose();
             }
